@@ -18,7 +18,7 @@ into the post editor, press “Enter” and it will replace the link with an
 interactive, shoppable kit of your recommendations. Here is how you can set it
 up:
 
-![Copy your kit link on its own line to replace it with a kit](documentation/kit-wordpress-plugin-example.png "Embed Your Kit")
+![Copy your kit link on its own line to replace it with a kit](documentation/kit-wordpress-plugin-example.png?raw=true "Embed Your Kit")
 
 For example:
 
