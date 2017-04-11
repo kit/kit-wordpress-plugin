@@ -8,7 +8,6 @@
    Author URI: https://kit.com
    License: GPL2
    */
-   wp_oembed_add_provider('/https?\:\/\/(.+)?kit.com\/[^\/]+\/[^\/]+',
-   'https://kit.com/oembed',
-   true);
+   wp_oembed_add_provider(
+     'https://kit.com/*/*', 'https://kit.com/oembed', false);
 ?>
