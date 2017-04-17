@@ -1,61 +1,61 @@
-# Kit WordPress Plugin
+=== Kit.com - Share your Product Recommendations ===
+Contributors: kittechinc
+Tags: oembed, embed, kit, affiliate, eCommerce
+Requires at least: 2.9.1
+Tested up to: 4.7.3
+Stable tag: 1.0.0
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Contributors: kit
-    Tags: kit, oembed, embed
-    Requires at least: 2.9.1
-    Tested up to: 4.3.1
-    Stable tag: 0.8
+Share your favorite products in an interactive, shoppable embed module directly on your blog.
 
-Share beautiful, interactive kits of product recommendations on your blog.
+== Description ==
+=About Kit.com=
+Kit is a community to discover, discuss and get interesting products – grouped into kits – for activities like traveling, DJing, cooking, cycling and more. To learn more about Kit, please click [here](https://kit.com/for-influencers).
 
-## Description
+=About Kit.com Wordpress Plugin=
+Kit.com WordPress Plugin is a free plugin for WordPress. The plugin enables you to paste links to your kits on [Kit.com](https://kit.com) and generate interactive, shoppable modules of your favorite products that you recommend, directly on your WordPress blog.
 
-On [Kit.com](https://kit.com), people create and share unique collections of
-their favorite products.
+=Note=
+By installing this plugin you agree to accept Kit.com’s [Terms of Use](https://kit.com/terms).
 
-If you have a WordPress blog, you can copy a link to your kit, paste the URL
-into the post editor, press “Enter” and it will replace the link with an
-interactive, shoppable kit of your recommendations. Here is how you can set it
-up:
+
+== Installation ==
+=Pre-requisites=
+==Sign up for Kit.com==
+Sign up for a free account at [Kit.com](https://kit.com). Create kits of products that you use and want to recommend on your WordPress blog.
+
+=Automatic Installation=
+1. Log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+2. Search for \"Kit.com - Share Your Product Recommendations\". Click \"Install Now\".
+
+=Manual Installation=
+If you are self-hosting your WordPress blog you can use the following instructions:
+
+1. Make a \'kit-com-share-your-product-recommendations\' directory in \'/wp-content/plugins/\'.
+2. Upload all files into the
+\'/wp-content/plugins/kit-com-share-your-product-recommendations/\' directory.
+3. Activate the plugin through the \'Plugins\' menu in WordPress.
+
+
+== Frequently Asked Questions ==
+= Where can I find more information on Kit.com? =
+You can find out more on our [site](https://kit.com) and you can find answers to many frequently asked questions on our[FAQ](https://blog.kit.com/got-questions-8368a2eb3526).
+
+= How does the plugin work? =
+Kit.com supports the oEmbed protocol ([http://oembed.com/](http://oembed.com/)) for allowing embedded representations of kit urls on third party sites. This plugin uses the wordpress function [wp_oembed_add_provider](https://codex.wordpress.org/Function_Reference/wp_oembed_add_provider) to register Kit.com as an oEmbed provider for your blog, allowing all users who can write posts to paste kit.com links and have them automatically replaced with interactive embed modules in the body of a post or page.
+
+= How much does it cost? =
+It is free to create an account on Kit.com as well as to use the WordPress plugin.
+
+== Screenshots ==
 
 ![Copy your kit link on its own line to replace it with a kit](documentation/kit-wordpress-plugin-example.png?raw=true "Embed Your Kit")
 
-For example:
+1. Write a post and paste a kit.com link on its own line
+2. The link will be automatically replaced with an interactive shoppable kit module
+3. Publish the post and your readers will be able to interact with the shoppable kit module.
 
-    Check out this kit of my favorite stuff:
-
-    https://kit.com/thebeerxchange/beer-trade-packing-supplies
-
-    That is what I recommend you use.
-
-WordPress will automatically turn the URL into an interactive module that users can click on to preview products recommended in the kit.
-
-This plugin uses WordPress [Embed](https://codex.wordpress.org/Embeds) functionality which was introduced in WordPress 2.9.
-
-## Installation
-
-1. In Your WordPress Admin Dashboard, go to Plugins > Add New.
-2. Search for "Kit WordPress Plugin".
-3. Find the plugin and click "Install".
-
-## Manual Installation
-
-If you are self-hosting WordPress you can also build this plugin locally.
-
-1. Clone this git repository.
-2. `cd src && zip kit.zip *`
-3. In Your WordPress Admin Dashboard, go to Plugins > Add New.
-4. Click "Choose File" and select the zip file you just generated.
-5. Click "Install Now".
-6. Click "Activate Plugin".
-
-## Feedback
-
-Learn more about our Kit embed module
-[on our blog](https://blog.kit.com/improved-kit-embeds-d5e1262b7f67).
-
-## Changelog
-
-### 0.1
-
-* Initial release
+== Changelog ==
+= 1.0 - April 17, 2017 =
+* Plugin released.
