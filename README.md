@@ -15,7 +15,7 @@ Share your favorite products in an interactive, shoppable embed module directly 
 Kit is a community to discover, discuss and get interesting products – grouped into kits – for activities like traveling, DJing, cooking, cycling and more. To learn more about Kit, please click [here](https://kit.com/for-influencers).
 
 ### About the Kit.com Wordpress Plugin
-Kit.com WordPress Plugin is a free plugin for WordPress. The plugin enables you to paste links to your kits on [Kit.com](https://kit.com) and generate interactive, shoppable modules of your favorite products that you recommend, directly on your WordPress blog.
+[The Kit.com WordPress Plugin](https://wordpress.org/plugins/kit-com/) is a free plugin for WordPress. The plugin enables you to paste links to your kits on [Kit.com](https://kit.com) and generate interactive, shoppable modules of your favorite products that you recommend, directly on your WordPress blog.
 
 ### Note
 By installing this plugin you agree to accept Kit.com’s [Terms of Use](https://kit.com/terms).
